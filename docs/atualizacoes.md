@@ -26,6 +26,8 @@ As versões até 1.2.6 procuram o repositório `gcam-portaria-updates`. A versã
 
 O endereço anterior permanece disponível com pacotes idênticos, sem depender de redirecionamentos de download. Não é necessário trocar o IP do servidor do condomínio, recriar a conta ou reinstalar o banco para mudar o canal de atualizações.
 
+Se uma versão muito antiga não consegue buscar ou aplicar atualizações, faça essa primeira passagem pelo instalador atual. Não remova o banco nem desinstale o servidor apenas para trocar a versão.
+
 ## Cuidados
 
 Mantenha um backup verificado antes de atualizar o servidor. Aguarde o envio das pendências offline e escolha uma janela de manutenção. A conferência de SHA-256 verifica a integridade do arquivo anunciado; ela não equivale a uma assinatura comercial do executável nem a uma auditoria de segurança.
