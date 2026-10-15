@@ -19,6 +19,10 @@ Na revisão 1.2.6 foram executados 144 testes unitários e seis testes de interf
 
 Esses números se referem a uma revisão específica. Não são apresentados como resultado de uma auditoria independente ou de um estudo de campo.
 
+Na versão 1.2.7, a suíte passou a contar com 154 testes unitários, incluindo a consulta e o download pelos canais oficial e legado. Os seis testes de interface foram executados no Windows e no macOS. O instalador também passou pela verificação de instalação, serviços, login, reinstalação com preservação dos registros e atualização automática em um executor Windows do GitHub Actions.
+
+Essa validação não substitui os testes no computador e nos dispositivos que serão utilizados em cada condomínio.
+
 ## Próximas etapas
 
 1. Homologar o terminal Hikvision DS-K1T671 em bancada, identificando o firmware utilizado.
