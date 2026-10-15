@@ -12,7 +12,7 @@ O GCAM Portaria é desenvolvido com a intenção de atender a operação de cond
 
 Os serviços do servidor iniciam com o Windows. Os pacotes atuais atendem Windows 10/11 x64. O aplicativo macOS Apple Silicon é uma estação de testes conectada ao servidor, não uma instalação de servidor.
 
-Os instaladores ficam no [canal de distribuição](https://github.com/kauannk1/gcam-portaria-updates/releases/latest). A disponibilidade do pacote não representa autorização de uso comercial ou certificação do ambiente. Os pacotes atuais não possuem certificado comercial de assinatura de código.
+Os instaladores ficam nas [Releases do projeto oficial](https://github.com/kauannk1/gcam-portaria-projeto/releases/latest). A disponibilidade do pacote não representa autorização de uso comercial ou certificação do ambiente. Os pacotes atuais não possuem certificado comercial de assinatura de código.
 
 ## Antes de colocar em operação
 
@@ -29,7 +29,7 @@ Os instaladores ficam no [canal de distribuição](https://github.com/kauannk1/g
 
 ## Atualizações
 
-As atualizações são disponibilizadas em um canal separado da documentação. O aplicativo verifica os pacotes publicados; o administrador pode solicitar também a atualização do servidor pela estação.
+As atualizações são disponibilizadas na seção Releases deste projeto, separadas dos arquivos de documentação. O aplicativo verifica os pacotes publicados; o administrador pode solicitar também a atualização do servidor pela estação. O canal antigo é preservado como espelho de compatibilidade durante a migração.
 
 O servidor é responsável pelas migrações do banco. Antes de uma atualização em ambiente real, mantenha backup verificado e planeje uma janela de manutenção. A confirmação de integridade do arquivo não substitui os testes de compatibilidade e funcionamento.
 

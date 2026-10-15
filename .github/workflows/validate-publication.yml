@@ -17,7 +17,7 @@ jobs:
           invalid=0
           while IFS= read -r -d '' path; do
             case "$path" in
-              README.md|AVISO-DE-USO.md|.gitignore|docs/*.md|assets/gcam-logo.png|.github/workflows/validate-publication.yml) ;;
+              README.md|AVISO-DE-USO.md|.gitignore|docs/*.md|assets/gcam-logo.png|.github/ISSUE_TEMPLATE/*.yml|.github/workflows/validate-publication.yml) ;;
               *) echo "Arquivo fora do escopo da apresentação: $path"; invalid=1 ;;
             esac
           done < <(git ls-files -z)

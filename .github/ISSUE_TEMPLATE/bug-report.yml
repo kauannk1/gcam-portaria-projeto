@@ -1,0 +1,57 @@
+name: Relatar um problema
+description: Informar uma falha reproduzível no GCAM Portaria.
+title: "[Problema] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Este relato será público. Não envie fotos de pessoas, documentos, placas,
+        senhas, endereços de servidores, bancos de dados ou logs sem revisar e remover dados pessoais.
+  - type: input
+    id: version
+    attributes:
+      label: Versão do programa
+      placeholder: Exemplo — 1.2.7
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Sistema
+      options:
+        - Windows 10
+        - Windows 11
+        - macOS Apple Silicon — estação de testes
+        - Outro
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Tipo da instalação
+      options:
+        - Servidor e portaria
+        - Servidor dedicado
+        - Somente estação
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      description: Descreva os passos usando nomes e dados fictícios.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: O que deveria acontecer
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: O que aconteceu
+      description: Informe a mensagem de erro, sem dados pessoais ou credenciais.
+    validations:
+      required: true

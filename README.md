@@ -10,7 +10,7 @@
   <a href="docs/projeto-academico.md">O TCC</a> ·
   <a href="docs/arquitetura.md">Arquitetura</a> ·
   <a href="docs/demonstracao.md">Demonstração</a> ·
-  <a href="https://github.com/kauannk1/gcam-portaria-updates/releases/latest">Instaladores</a>
+  <a href="https://github.com/kauannk1/gcam-portaria-projeto/releases/latest">Baixar o programa</a>
 </p>
 
 ## Sobre o projeto
@@ -19,7 +19,7 @@ O GCAM Portaria foi desenvolvido para reunir, em um só sistema, os cadastros e 
 
 O projeto integra o Trabalho de Conclusão de Curso de **Análise e Desenvolvimento de Sistemas (ADS) da FATEC Ribeirão Preto**, desenvolvido por **Kauan Rafael Silva Sena**.
 
-Este é o repositório de apresentação do projeto. Aqui estão o escopo, as decisões de arquitetura, o roteiro de demonstração e as informações de implantação. **O código-fonte permanece privado.**
+Este é o ponto oficial de apresentação e distribuição do projeto. Aqui estão a documentação pública e os instaladores na seção **Releases**. **O código-fonte permanece privado**, em um repositório separado de desenvolvimento.
 
 ## A rotina da portaria
 
@@ -62,11 +62,19 @@ O projeto não é apresentado como produto certificado, nem como solução imune
 - [Roteiro de demonstração](docs/demonstracao.md)
 - [Implantação e uso em produção](docs/implantacao.md)
 - [Etapas de validação](docs/validacao.md)
+- [Downloads, atualizações e compatibilidade](docs/atualizacoes.md)
 - [Uso do material e do software](AVISO-DE-USO.md)
 
 ## Distribuição e contato
 
-Os instaladores e as atualizações ficam em um canal separado: [GCAM Portaria — distribuição](https://github.com/kauannk1/gcam-portaria-updates).
+Baixe o aplicativo nas [Releases deste projeto](https://github.com/kauannk1/gcam-portaria-projeto/releases/latest).
+
+- **Windows 10/11 x64:** `GCAM-Setup-VERSAO.exe`, com as opções servidor, estação ou ambos.
+- **Mac Apple Silicon:** `GCAM-Portaria-VERSAO-macOS-arm64.zip`, para a estação de testes.
+
+Os arquivos **Source code (zip/tar.gz)** gerados pelo GitHub contêm apenas a documentação deste repositório, não o aplicativo nem seu código-fonte. Escolha o instalador ou o ZIP do Mac identificado acima.
+
+Para quem já utiliza o programa, a atualização fica em **Configurações > Atualizações**. O [canal anterior](https://github.com/kauannk1/gcam-portaria-updates) é mantido apenas como espelho para compatibilidade com as instalações antigas. Consulte [como funciona a transição](docs/atualizacoes.md).
 
 Para entrar em contato com o desenvolvedor, utilize o [perfil de Kauan no GitHub](https://github.com/kauannk1). Não publique dados de moradores, documentos, fotografias de pessoas, senhas ou cópias de bancos em comentários ou solicitações de suporte.
 
