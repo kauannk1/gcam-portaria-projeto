@@ -1,0 +1,24 @@
+name: Conferir conteúdo público
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  presentation-only:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recusar código, binários e arquivos não previstos
+        shell: bash
+        run: |
+          set -euo pipefail
+          invalid=0
+          while IFS= read -r -d '' path; do
+            case "$path" in
+              README.md|AVISO-DE-USO.md|.gitignore|docs/*.md|assets/gcam-logo.png|.github/workflows/validate-publication.yml) ;;
+              *) echo "Arquivo fora do escopo da apresentação: $path"; invalid=1 ;;
+            esac
+          done < <(git ls-files -z)
+          exit "$invalid"

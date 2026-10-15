@@ -1,0 +1,27 @@
+# Este repositório contém somente apresentação pública.
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.Local.json
+secrets/
+credentials/
+data/
+backups/
+logs/
+uploads/
+bin/
+obj/
+*.db
+*.sql
+*.bak
+*.dump
+*.exe
+*.dll
+*.zip
+*.jpg
+*.jpeg
+
+# Não publicar documentos pessoais ou material acadêmico sem revisão.
+*.docx
+*.pdf
